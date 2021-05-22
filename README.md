@@ -9,15 +9,15 @@ The data is extracted from torrent files from http://libgen.rs/scimag/repository
 Sci-Hub and Library Genesis share the same article database.
 
 ## Graphs
-[![Number of articles vs time]("Number of articles vs time")](./images/number_of_articles.png "Number of articles vs time")
-[![Total size size vs time]("Total size size vs time")](./images/file_size.png "Total size size vs time")
+![Number of articles vs time](./images/number_of_articles.png) | ![Total size size vs time](./images/file_size.png "Total size size vs time")
+:-------------------------:|:-------------------------:
 
 ## How to download the torrent files and make the graphs
 First run:
 
 `python download_torrent_files_and_extract_data.py`
 
-To download the torrents then extract the data to `'torrent_info.csv'`.
+To download the torrents then extract the data to `./torrent_info.csv`.
 
 Then run:
 
